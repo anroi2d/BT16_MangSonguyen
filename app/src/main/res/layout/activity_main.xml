@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context="com.lecongan.bt16_mangsonguyen.MainActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dãy ngẫu nhiên: "
+        />
+    <EditText
+        android:id="@+id/edt_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_kq"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả: "
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+    <Button
+        android:textAllCaps="false"
+        android:text="Tạo một dãy ngẫu nhiên"
+        android:id="@+id/btn_create_new"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:textAllCaps="false"
+        android:text="Xuất xuôi"
+        android:id="@+id/btn_xuat_xuoi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:textAllCaps="false"
+        android:text="Xuất ngược"
+        android:id="@+id/btn_xuat_nguoc"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:textAllCaps="false"
+        android:text="Tìm min và max"
+        android:id="@+id/btn_min_max"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:textAllCaps="false"
+        android:text="Sắp thứ tự tăng"
+        android:id="@+id/btn_sap_tang"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:textAllCaps="false"
+        android:text="Đảo ngẫu nhiên"
+        android:id="@+id/btn_dao_random"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <Button
+        android:textAllCaps="false"
+        android:text="Tính tổng 3 phần tử đầu"
+        android:id="@+id/btn_sum_3ptudau"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
